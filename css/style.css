@@ -1,0 +1,19 @@
+/* GitHub Pages external stylesheet */
+:root {
+  --red: #d82f20;
+  --red-dark: #a92018;
+  --yellow: #ffc928;
+  --green: #1f795b;
+  --ink: #261509;
+  --cream: #fff9ed;
+  --line: rgba(38, 21, 9, .18);
+  --round: "M PLUS Rounded 1c", "Noto Sans JP", sans-serif;
+  --display: "Bebas Neue", sans-serif;
+}
+body { font-family: var(--round); }
+img { max-width: 100%; }
+.button, .nav-cta { transition: transform .2s ease, box-shadow .2s ease; }
+.button:hover, .nav-cta:hover { transform: translateY(-3px); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
